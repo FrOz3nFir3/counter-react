@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: black;
+  color: white;
+  padding: 2em;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  padding: 1em 0;
+}
+.flow-space > * + *  {
+  margin-top: var(--spacer, 1rem);
+}
+
+#root > div{
+  flex-direction: column;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+
+.underline-text{
+  display: inline-block;
+  padding: .5em 0;
+  border-bottom: 2px solid white;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.1em;
+  padding: 0.5em 2em;
+}
+.bg-light{
+  background: white;
+  color: black;
+}
+.bg-black{
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+button:hover {
+  opacity: 0.7;
+}
+.error {
+  display: block;
+  color: red;
+}
+
